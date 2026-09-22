@@ -4,21 +4,21 @@ cask "grimoire" do
 
   on_macos do
     on_arm do
-      sha256 "f86ad31afc64c6e9f82148973990c084ecd7b08de2a69472560845f54018787f"
+      sha256 "a5c6798d40913b295279601f6aaeefab775f2427af2e83d123f5f006bd7fa826"
       url "https://github.com/JeremiahM37/grimoire/releases/download/v#{version}/grimoire_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "4f6281c39f0c9a139baecbec59ef7da5fe5f3b18e620da19c0fd49847e19de93"
+      sha256 "949c358262f78fa6907af3537d9d05d967ceb61d52ab92626f19de3bb982227c"
       url "https://github.com/JeremiahM37/grimoire/releases/download/v#{version}/grimoire_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "dfd73882eb0c8390f7301cb6fdcb2fae6c05f7f73022e4e63d173efb80f26642"
+      sha256 "37ab7e52640d96214c7bb12d76fa538f0c65e390698a87d2b8f437a8442e7fb1"
       url "https://github.com/JeremiahM37/grimoire/releases/download/v#{version}/grimoire_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "6a20ffead17fceac27e21cb335a15ac9e37a2d83caa953fa0811a4c662709249"
+      sha256 "400a15c48f18dc6d82409085c36a95cd00e58cde2b0799ac19adf36aba130b59"
       url "https://github.com/JeremiahM37/grimoire/releases/download/v#{version}/grimoire_linux_amd64.tar.gz"
     end
   end
